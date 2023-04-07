@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Consumer Registration</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <center>
+      <div class="section">
+        <br>
+        <h3>Register</h3>
+         <form action="register.php" method="POST">
+            <table>
+                <br>
+                <br>
+                <tr>
+                  <td> Name : </td>
+                  <td>
+                    <input type="text" name="name" required/>
+                  </td>
+                </tr>
+                <tr>
+                  <td> Phone : </td>
+                  <td>
+                    <input type="number" name="phone" required/>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td> Address : </td>
+                  <td>
+                    <textarea name="address" cols="22" rows="2" required></textarea>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td></td>
+                  <td>
+                      <input type="submit" value="Submit" id="btn" name="submit">
+                  </td>
+                </tr>
+              </table>
+         </form>
+        <br>
+       
+      </div>
+    </center>
+  </body>
+</html>

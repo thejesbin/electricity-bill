@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Electricity Bill</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <center>
+      <div class="section">
+        <br>
+        <h3>Fetch Bill</h3>
+          <form action="bill.php" method="POST">
+            <table>
+                <br>
+                <br>
+                <tr>
+                  <td>Phone Number</td>
+                  <td>
+                    <input type="number" name="phone" required/>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td>Present Reading</td>
+                  <td>
+                    <input type="number" name="present" required/>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>
+                      <input type="submit" value="Submit" id="btn" name="submit">
+                  </td>
+                </tr>
+              </table>
+          </form>
+        <br>
+        <a href="register.html">Register as a consumer</a>
+      </div>
+    </center>
+  </body>
+</html>
